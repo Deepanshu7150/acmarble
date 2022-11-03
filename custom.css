@@ -1,0 +1,143 @@
+html{
+    cursor: url("img/logicon.png"), url("img/logicon.png"), default;
+}
+.wpb_video_wrapper{
+    display: contents;
+}
+#red{
+    color: rgb(255, 0, 0);
+    text-align: center;
+}
+.tests {
+    width: 100%;
+    margin: auto;
+    padding-top: 100px;
+    text-align: center;
+    background-color: #1c1c1c;
+}
+
+.tests h1 {
+    color: #e4e4e4;
+    font-weight: 600;
+
+}
+
+.tests p {
+    color: #e4e4e4;
+    margin-bottom: 50px;
+}
+
+.tests h1::after {
+    content: '';
+    width: 0%;
+    height: 2px;
+    background-color: rgb(218, 56, 38);
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+}
+
+.tests h1:hover::after {
+    width: 20%;
+}
+
+.tests-col {
+    display: inline-flex;
+    flex-direction: column;
+    /* flex-basis: 15%; */
+    /* border-radius: 5px; */
+    /* margin-top: 30px; */
+    /* margin-bottom: 5%; */
+    text-align: center;
+    /* background-color: rgb(199, 199, 199); */
+    /* padding: 25px; */
+    /* cursor: pointer; */
+    /* margin-left: 10px; */
+    /* margin-right: 10px; */
+    /* transition: 0.2s; */
+}
+
+
+
+.tests-col img {
+    /* top: -60px;
+        position: absolute;
+        left: calc(50% -50%); */
+    height: 30px;
+    border-radius: 50px;
+    margin: 15px auto 0px;
+}
+
+blockquote::before {
+    content: '\93';
+    font-size: 50px;
+    position: relative;
+    color: red;
+    line-height: 20px;
+    bottom: -15px;
+    right: 5px;
+
+}
+
+blockquote::after {
+    content: '\94';
+    font-size: 50px;
+    position: relative;
+    color: red;
+    line-height: 10px;
+    bottom: -15px;
+    left: 5px;
+
+}
+
+.tests-col h3 {
+    margin: 0px;
+}
+
+.tests-col p {
+    color: #1c1c1c;
+    font-size: large;
+}
+
+.tests-col i {
+    color: rgb(245, 31, 31);
+}
+
+#view-more,
+#say {
+    margin: -10px 15px 0;
+}
+.reachus{
+    display: flex;
+    justify-content: space-between;
+}
+#reach{
+    text-align: center;
+}
+#footerA{
+    display: flex;
+    align-items: center;
+
+}
+
+
+.iconB{
+    margin: 0 10px!important;
+}
+hr{
+    color: #1c1c1c;
+    background: #1c1c1c;
+}
+@media(max-width: 1000px) {
+    #footerA{
+        flex-wrap: wrap;   
+        justify-content: center;
+    }
+    .reachus{
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+}
+#videoid{
+    border-radius: 20px;
+}

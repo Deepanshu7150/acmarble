@@ -1,0 +1,67 @@
+div.vc_gitem-zone.vc_gitem-zone-b.vc-gitem-zone-height-mode-auto.vc_gitem-is-link {
+    background-position: left
+}
+
+footer#footer.footer {
+    padding-top: 50px
+}
+
+h3.widget-title {
+    font-weight: 700;
+    text-transform: none
+}
+
+article.recent-post .recent-post-thumbnail img {
+    border-radius: 0
+}
+
+#cookieLaw {
+    position: fixed;
+    bottom: 0;
+    z-index: 9999999999 !important;
+    width: 100%;
+    background-color: #fff;
+    border-top: 5px solid #ed473e
+}
+
+#cookieLaw p {
+    color: #000;
+    font-size: .8em;
+    display: inline-block;
+    padding-left: 5%
+}
+
+#cookieLaw>a {
+    float: right;
+    margin-left: 1%;
+    border: 0;
+    margin-top: .2%;
+    height: 20px;
+    line-height: 20px;
+    padding: 0 5px
+}
+
+#leerCookie {
+    margin-right: 1.5%
+}
+
+body>#s-share-buttons {
+    display: none
+}
+
+div.content>#s-share-buttons {
+    width: 66.66666%;
+    margin: 0 auto
+}
+
+.blog-list>.d-none {
+    display: none
+}
+
+div.project-details-item div.project-details-info.wow.fadeInLeft {
+    bottom: 6%
+}
+
+.navbar-desctop-menu>li {
+    margin-left: 3em !important
+}
